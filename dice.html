@@ -1,0 +1,33 @@
+<!DOCTYPE html><html>
+<head>
+    <title>D I C E</title>
+    <link rel="stylesheet" type="text/css" href="dice.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $( '.dice' ).click(function() {
+                $("#"+this.id).toggleClass('active');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="vertical-align">
+        <div class="dice" id="d20">d20</div>
+        <br>
+
+        <div class="dice" id="d4">d4</div>
+        <div class="dice" id="d6">d6</div>
+        <div class="dice" id="d8">d8</div>
+        <div class="dice" id="d10">d10</div>
+        <div class="dice" id="d12">d12</div>
+        <br>
+
+        <div class="dice" id="dper">d%</div>
+        <br><br>
+        <div id="roll">ROLL</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #a6a6a6; }
+
+.vertical-align {
+  display: block; }
+
+.vertical-align div {
+  padding: 1.5em 3em;
+  background-color: #343432;
+  width: 90vw;
+  display: inline-block;
+  font-size: 1.5em; }
+
+#d4 {
+  background-color: #FF5E46;
+  color: #460900; }
+
+#d4:hover {
+  background-color: #ff3213; }
+
+#d6 {
+  background-color: #D47FE8;
+  color: #4a1058; }
+
+#d6:hover {
+  background-color: #c554e0; }
+
+#d8 {
+  background-color: #8CC4FF;
+  color: #00448c; }
+
+#d8:hover {
+  background-color: #59aaff; }
+
+#d10 {
+  background-color: #92FFD5;
+  color: #00925a; }
+
+#d10:hover {
+  background-color: #5fffc1; }
+
+#d12 {
+  background-color: #FBFFA2;
+  color: #9ba200; }
+
+#d12:hover {
+  background-color: #f9ff6f; }
+
+#d20 {
+  background-color: #FFDD9A;
+  color: #9a6600; }
+
+#d20:hover {
+  background-color: #ffcc67; }
+
+#dper {
+  background-color: #FFBF99;
+  color: #993900; }
+
+#dper:hover {
+  background-color: #ff9f66; }
+
+#roll {
+  background-color: #343432;
+  color: #e6e6e5; }
+
+#roll:hover {
+  background-color: #1a1a19; }
+
+.active {
+  background-color: #59E875 !important;
+  color: #3D9E50 !important; }
+
+/*# sourceMappingURL=dice.css.map */
